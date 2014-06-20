@@ -17,18 +17,6 @@
 		0D4A20181953D30500F121BA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20101953D30500F121BA /* FMResultSet.m */; };
 		0D4A201B1953D33900F121BA /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A201A1953D33900F121BA /* iOSAppDelegate.m */; };
 		0D4A201D1953D37A00F121BA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4A201C1953D37A00F121BA /* libsqlite3.0.dylib */; };
-		0D4A20351953D61E00F121BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A201F1953D61E00F121BA /* Main.storyboard */; };
-		0D4A20361953D61E00F121BA /* Credit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A20211953D61E00F121BA /* Credit-Info.plist */; };
-		0D4A20371953D61E00F121BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A20231953D61E00F121BA /* InfoPlist.strings */; };
-		0D4A20381953D61E00F121BA /* FriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20261953D61E00F121BA /* FriViewController.m */; };
-		0D4A20391953D61E00F121BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A20271953D61E00F121BA /* Images.xcassets */; };
-		0D4A203A1953D61E00F121BA /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20291953D61E00F121BA /* iOSAppDelegate.m */; };
-		0D4A203B1953D61E00F121BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A202A1953D61E00F121BA /* main.m */; };
-		0D4A203C1953D61E00F121BA /* MonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A202C1953D61E00F121BA /* MonViewController.m */; };
-		0D4A203D1953D61E00F121BA /* ThurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A202E1953D61E00F121BA /* ThurViewController.m */; };
-		0D4A203E1953D61E00F121BA /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20301953D61E00F121BA /* TimeViewController.m */; };
-		0D4A203F1953D61E00F121BA /* TueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20321953D61E00F121BA /* TueViewController.m */; };
-		0D4A20401953D61E00F121BA /* WedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20341953D61E00F121BA /* WedViewController.m */; };
 		9AA10AD31953BBBA00978D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD21953BBBA00978D79 /* Foundation.framework */; };
 		9AA10AD51953BBBA00978D79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD41953BBBA00978D79 /* CoreGraphics.framework */; };
 		9AA10AD71953BBBA00978D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD61953BBBA00978D79 /* UIKit.framework */; };
@@ -79,26 +67,6 @@
 		0D4A20191953D33900F121BA /* iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSAppDelegate.h; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSAppDelegate.h; sourceTree = "<group>"; };
 		0D4A201A1953D33900F121BA /* iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSAppDelegate.m; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSAppDelegate.m; sourceTree = "<group>"; };
 		0D4A201C1953D37A00F121BA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		0D4A20201953D61E00F121BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D4A20211953D61E00F121BA /* Credit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Credit-Info.plist"; sourceTree = "<group>"; };
-		0D4A20221953D61E00F121BA /* Credit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Credit-Prefix.pch"; sourceTree = "<group>"; };
-		0D4A20241953D61E00F121BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D4A20251953D61E00F121BA /* FriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriViewController.h; sourceTree = "<group>"; };
-		0D4A20261953D61E00F121BA /* FriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriViewController.m; sourceTree = "<group>"; };
-		0D4A20271953D61E00F121BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0D4A20281953D61E00F121BA /* iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
-		0D4A20291953D61E00F121BA /* iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
-		0D4A202A1953D61E00F121BA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D4A202B1953D61E00F121BA /* MonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonViewController.h; sourceTree = "<group>"; };
-		0D4A202C1953D61E00F121BA /* MonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonViewController.m; sourceTree = "<group>"; };
-		0D4A202D1953D61E00F121BA /* ThurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThurViewController.h; sourceTree = "<group>"; };
-		0D4A202E1953D61E00F121BA /* ThurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThurViewController.m; sourceTree = "<group>"; };
-		0D4A202F1953D61E00F121BA /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
-		0D4A20301953D61E00F121BA /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
-		0D4A20311953D61E00F121BA /* TueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TueViewController.h; sourceTree = "<group>"; };
-		0D4A20321953D61E00F121BA /* TueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TueViewController.m; sourceTree = "<group>"; };
-		0D4A20331953D61E00F121BA /* WedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WedViewController.h; sourceTree = "<group>"; };
-		0D4A20341953D61E00F121BA /* WedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WedViewController.m; sourceTree = "<group>"; };
 		9AA10ACF1953BBBA00978D79 /* Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Credit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA10AD21953BBBA00978D79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AA10AD41953BBBA00978D79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -153,33 +121,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D4A201E1953D61E00F121BA /* Credit */ = {
-			isa = PBXGroup;
-			children = (
-				0D4A201F1953D61E00F121BA /* Main.storyboard */,
-				0D4A20211953D61E00F121BA /* Credit-Info.plist */,
-				0D4A20221953D61E00F121BA /* Credit-Prefix.pch */,
-				0D4A20231953D61E00F121BA /* InfoPlist.strings */,
-				0D4A20251953D61E00F121BA /* FriViewController.h */,
-				0D4A20261953D61E00F121BA /* FriViewController.m */,
-				0D4A20271953D61E00F121BA /* Images.xcassets */,
-				0D4A20281953D61E00F121BA /* iOSAppDelegate.h */,
-				0D4A20291953D61E00F121BA /* iOSAppDelegate.m */,
-				0D4A202A1953D61E00F121BA /* main.m */,
-				0D4A202B1953D61E00F121BA /* MonViewController.h */,
-				0D4A202C1953D61E00F121BA /* MonViewController.m */,
-				0D4A202D1953D61E00F121BA /* ThurViewController.h */,
-				0D4A202E1953D61E00F121BA /* ThurViewController.m */,
-				0D4A202F1953D61E00F121BA /* TimeViewController.h */,
-				0D4A20301953D61E00F121BA /* TimeViewController.m */,
-				0D4A20311953D61E00F121BA /* TueViewController.h */,
-				0D4A20321953D61E00F121BA /* TueViewController.m */,
-				0D4A20331953D61E00F121BA /* WedViewController.h */,
-				0D4A20341953D61E00F121BA /* WedViewController.m */,
-			);
-			name = Credit;
-			sourceTree = "<group>";
-		};
 		9AA10AC61953BBBA00978D79 = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				0D4A20191953D33900F121BA /* iOSAppDelegate.h */,
-				0D4A201E1953D61E00F121BA /* Credit */,
 				0D4A201A1953D33900F121BA /* iOSAppDelegate.m */,
 				9AA10AE41953BBBA00978D79 /* Main.storyboard */,
 				9AA10AE71953BBBA00978D79 /* WedViewController.h */,
@@ -359,12 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA10AEB1953BBBA00978D79 /* Images.xcassets in Resources */,
-				0D4A20371953D61E00F121BA /* InfoPlist.strings in Resources */,
-				0D4A20391953D61E00F121BA /* Images.xcassets in Resources */,
 				9AA10ADD1953BBBA00978D79 /* InfoPlist.strings in Resources */,
 				9AA10AE61953BBBA00978D79 /* Main.storyboard in Resources */,
-				0D4A20351953D61E00F121BA /* Main.storyboard in Resources */,
-				0D4A20361953D61E00F121BA /* Credit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,17 +321,13 @@
 			files = (
 				0D4A20131953D30500F121BA /* iOSCurriculumRegistViewController.m in Sources */,
 				9AA10B091953BC7100978D79 /* TimeViewController.m in Sources */,
-				0D4A203F1953D61E00F121BA /* TueViewController.m in Sources */,
 				0D4A20141953D30500F121BA /* FMDatabase.m in Sources */,
 				9AA10ADF1953BBBA00978D79 /* main.m in Sources */,
 				0D4A20171953D30500F121BA /* FMDatabaseQueue.m in Sources */,
 				0D4A20181953D30500F121BA /* FMResultSet.m in Sources */,
 				0D4A20111953D30500F121BA /* iOSCurriculumSelectViewController.m in Sources */,
 				9AA10B0F1953BCEF00978D79 /* TueViewController.m in Sources */,
-				0D4A203B1953D61E00F121BA /* main.m in Sources */,
-				0D4A20381953D61E00F121BA /* FriViewController.m in Sources */,
 				0D4A201B1953D33900F121BA /* iOSAppDelegate.m in Sources */,
-				0D4A203A1953D61E00F121BA /* iOSAppDelegate.m in Sources */,
 				9AA10AE91953BBBA00978D79 /* WedViewController.m in Sources */,
 				0D4A20151953D30500F121BA /* FMDatabaseAdditions.m in Sources */,
 				0D4A20121953D30500F121BA /* iOSCreditInputViewController.m in Sources */,
@@ -403,10 +335,6 @@
 				0D4A20161953D30500F121BA /* FMDatabasePool.m in Sources */,
 				9AA10B151953C09700978D79 /* FriViewController.m in Sources */,
 				9AA10B121953C08700978D79 /* ThurViewController.m in Sources */,
-				0D4A203E1953D61E00F121BA /* TimeViewController.m in Sources */,
-				0D4A20401953D61E00F121BA /* WedViewController.m in Sources */,
-				0D4A203C1953D61E00F121BA /* MonViewController.m in Sources */,
-				0D4A203D1953D61E00F121BA /* ThurViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,22 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D4A201F1953D61E00F121BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D4A20201953D61E00F121BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0D4A20231953D61E00F121BA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D4A20241953D61E00F121BA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		9AA10ADB1953BBBA00978D79 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
