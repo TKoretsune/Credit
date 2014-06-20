@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4A20111953D30500F121BA /* iOSCurriculumSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20021953D30500F121BA /* iOSCurriculumSelectViewController.m */; };
+		0D4A20121953D30500F121BA /* iOSCreditInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20041953D30500F121BA /* iOSCreditInputViewController.m */; };
+		0D4A20131953D30500F121BA /* iOSCurriculumRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20061953D30500F121BA /* iOSCurriculumRegistViewController.m */; };
+		0D4A20141953D30500F121BA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20081953D30500F121BA /* FMDatabase.m */; };
+		0D4A20151953D30500F121BA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A200A1953D30500F121BA /* FMDatabaseAdditions.m */; };
+		0D4A20161953D30500F121BA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A200C1953D30500F121BA /* FMDatabasePool.m */; };
+		0D4A20171953D30500F121BA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A200E1953D30500F121BA /* FMDatabaseQueue.m */; };
+		0D4A20181953D30500F121BA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A20101953D30500F121BA /* FMResultSet.m */; };
+		0D4A201B1953D33900F121BA /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A201A1953D33900F121BA /* iOSAppDelegate.m */; };
+		0D4A201D1953D37A00F121BA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4A201C1953D37A00F121BA /* libsqlite3.0.dylib */; };
 		9AA10AD31953BBBA00978D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD21953BBBA00978D79 /* Foundation.framework */; };
 		9AA10AD51953BBBA00978D79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD41953BBBA00978D79 /* CoreGraphics.framework */; };
 		9AA10AD71953BBBA00978D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD61953BBBA00978D79 /* UIKit.framework */; };
 		9AA10ADD1953BBBA00978D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10ADB1953BBBA00978D79 /* InfoPlist.strings */; };
 		9AA10ADF1953BBBA00978D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10ADE1953BBBA00978D79 /* main.m */; };
-		9AA10AE31953BBBA00978D79 /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */; };
 		9AA10AE61953BBBA00978D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10AE41953BBBA00978D79 /* Main.storyboard */; };
 		9AA10AE91953BBBA00978D79 /* WedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AE81953BBBA00978D79 /* WedViewController.m */; };
 		9AA10AEB1953BBBA00978D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10AEA1953BBBA00978D79 /* Images.xcassets */; };
@@ -39,6 +48,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4A20011953D30500F121BA /* iOSCurriculumSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCurriculumSelectViewController.h; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCurriculumSelectViewController.h; sourceTree = "<group>"; };
+		0D4A20021953D30500F121BA /* iOSCurriculumSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCurriculumSelectViewController.m; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCurriculumSelectViewController.m; sourceTree = "<group>"; };
+		0D4A20031953D30500F121BA /* iOSCreditInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCreditInputViewController.h; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCreditInputViewController.h; sourceTree = "<group>"; };
+		0D4A20041953D30500F121BA /* iOSCreditInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCreditInputViewController.m; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCreditInputViewController.m; sourceTree = "<group>"; };
+		0D4A20051953D30500F121BA /* iOSCurriculumRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCurriculumRegistViewController.h; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCurriculumRegistViewController.h; sourceTree = "<group>"; };
+		0D4A20061953D30500F121BA /* iOSCurriculumRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCurriculumRegistViewController.m; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSCurriculumRegistViewController.m; sourceTree = "<group>"; };
+		0D4A20071953D30500F121BA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		0D4A20081953D30500F121BA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		0D4A20091953D30500F121BA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		0D4A200A1953D30500F121BA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		0D4A200B1953D30500F121BA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		0D4A200C1953D30500F121BA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		0D4A200D1953D30500F121BA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		0D4A200E1953D30500F121BA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		0D4A200F1953D30500F121BA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		0D4A20101953D30500F121BA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../iPhoneApp/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		0D4A20191953D33900F121BA /* iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSAppDelegate.h; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSAppDelegate.h; sourceTree = "<group>"; };
+		0D4A201A1953D33900F121BA /* iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSAppDelegate.m; path = ../../iPhoneApp/CreditApp_InitiateView/button/iOSAppDelegate.m; sourceTree = "<group>"; };
+		0D4A201C1953D37A00F121BA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		9AA10ACF1953BBBA00978D79 /* Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Credit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA10AD21953BBBA00978D79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AA10AD41953BBBA00978D79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +75,6 @@
 		9AA10ADC1953BBBA00978D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AA10ADE1953BBBA00978D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AA10AE01953BBBA00978D79 /* Credit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Credit-Prefix.pch"; sourceTree = "<group>"; };
-		9AA10AE11953BBBA00978D79 /* iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
-		9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
 		9AA10AE51953BBBA00978D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AA10AE71953BBBA00978D79 /* WedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WedViewController.h; sourceTree = "<group>"; };
 		9AA10AE81953BBBA00978D79 /* WedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WedViewController.m; sourceTree = "<group>"; };
@@ -75,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4A201D1953D37A00F121BA /* libsqlite3.0.dylib in Frameworks */,
 				9AA10AD51953BBBA00978D79 /* CoreGraphics.framework in Frameworks */,
 				9AA10AD71953BBBA00978D79 /* UIKit.framework in Frameworks */,
 				9AA10AD31953BBBA00978D79 /* Foundation.framework in Frameworks */,
@@ -116,6 +143,7 @@
 		9AA10AD11953BBBA00978D79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D4A201C1953D37A00F121BA /* libsqlite3.0.dylib */,
 				9AA10AD21953BBBA00978D79 /* Foundation.framework */,
 				9AA10AD41953BBBA00978D79 /* CoreGraphics.framework */,
 				9AA10AD61953BBBA00978D79 /* UIKit.framework */,
@@ -127,8 +155,8 @@
 		9AA10AD81953BBBA00978D79 /* Credit */ = {
 			isa = PBXGroup;
 			children = (
-				9AA10AE11953BBBA00978D79 /* iOSAppDelegate.h */,
-				9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */,
+				0D4A20191953D33900F121BA /* iOSAppDelegate.h */,
+				0D4A201A1953D33900F121BA /* iOSAppDelegate.m */,
 				9AA10AE41953BBBA00978D79 /* Main.storyboard */,
 				9AA10AE71953BBBA00978D79 /* WedViewController.h */,
 				9AA10AE81953BBBA00978D79 /* WedViewController.m */,
@@ -142,6 +170,22 @@
 				9AA10B0D1953BCEF00978D79 /* TueViewController.h */,
 				9AA10B0E1953BCEF00978D79 /* TueViewController.m */,
 				9AA10B0B1953BCBB00978D79 /* MonViewController.m */,
+				0D4A20011953D30500F121BA /* iOSCurriculumSelectViewController.h */,
+				0D4A20021953D30500F121BA /* iOSCurriculumSelectViewController.m */,
+				0D4A20031953D30500F121BA /* iOSCreditInputViewController.h */,
+				0D4A20041953D30500F121BA /* iOSCreditInputViewController.m */,
+				0D4A20051953D30500F121BA /* iOSCurriculumRegistViewController.h */,
+				0D4A20061953D30500F121BA /* iOSCurriculumRegistViewController.m */,
+				0D4A20071953D30500F121BA /* FMDatabase.h */,
+				0D4A20081953D30500F121BA /* FMDatabase.m */,
+				0D4A20091953D30500F121BA /* FMDatabaseAdditions.h */,
+				0D4A200A1953D30500F121BA /* FMDatabaseAdditions.m */,
+				0D4A200B1953D30500F121BA /* FMDatabasePool.h */,
+				0D4A200C1953D30500F121BA /* FMDatabasePool.m */,
+				0D4A200D1953D30500F121BA /* FMDatabaseQueue.h */,
+				0D4A200E1953D30500F121BA /* FMDatabaseQueue.m */,
+				0D4A200F1953D30500F121BA /* FMResultSet.h */,
+				0D4A20101953D30500F121BA /* FMResultSet.m */,
 				9AA10AEA1953BBBA00978D79 /* Images.xcassets */,
 				9AA10AD91953BBBA00978D79 /* Supporting Files */,
 			);
@@ -275,12 +319,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA10AE31953BBBA00978D79 /* iOSAppDelegate.m in Sources */,
+				0D4A20131953D30500F121BA /* iOSCurriculumRegistViewController.m in Sources */,
 				9AA10B091953BC7100978D79 /* TimeViewController.m in Sources */,
+				0D4A20141953D30500F121BA /* FMDatabase.m in Sources */,
 				9AA10ADF1953BBBA00978D79 /* main.m in Sources */,
+				0D4A20171953D30500F121BA /* FMDatabaseQueue.m in Sources */,
+				0D4A20181953D30500F121BA /* FMResultSet.m in Sources */,
+				0D4A20111953D30500F121BA /* iOSCurriculumSelectViewController.m in Sources */,
 				9AA10B0F1953BCEF00978D79 /* TueViewController.m in Sources */,
+				0D4A201B1953D33900F121BA /* iOSAppDelegate.m in Sources */,
 				9AA10AE91953BBBA00978D79 /* WedViewController.m in Sources */,
+				0D4A20151953D30500F121BA /* FMDatabaseAdditions.m in Sources */,
+				0D4A20121953D30500F121BA /* iOSCreditInputViewController.m in Sources */,
 				9AA10B0C1953BCBB00978D79 /* MonViewController.m in Sources */,
+				0D4A20161953D30500F121BA /* FMDatabasePool.m in Sources */,
 				9AA10B151953C09700978D79 /* FriViewController.m in Sources */,
 				9AA10B121953C08700978D79 /* ThurViewController.m in Sources */,
 			);
@@ -487,6 +539,7 @@
 				9AA10B031953BBBA00978D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA10B041953BBBA00978D79 /* Build configuration list for PBXNativeTarget "CreditTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +548,7 @@
 				9AA10B061953BBBA00978D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
