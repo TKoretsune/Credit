@@ -14,13 +14,18 @@
 		9AA10ADF1953BBBA00978D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10ADE1953BBBA00978D79 /* main.m */; };
 		9AA10AE31953BBBA00978D79 /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */; };
 		9AA10AE61953BBBA00978D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10AE41953BBBA00978D79 /* Main.storyboard */; };
-		9AA10AE91953BBBA00978D79 /* iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AE81953BBBA00978D79 /* iOSViewController.m */; };
+		9AA10AE91953BBBA00978D79 /* WedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AE81953BBBA00978D79 /* WedViewController.m */; };
 		9AA10AEB1953BBBA00978D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10AEA1953BBBA00978D79 /* Images.xcassets */; };
 		9AA10AF21953BBBA00978D79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AF11953BBBA00978D79 /* XCTest.framework */; };
 		9AA10AF31953BBBA00978D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD21953BBBA00978D79 /* Foundation.framework */; };
 		9AA10AF41953BBBA00978D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA10AD61953BBBA00978D79 /* UIKit.framework */; };
 		9AA10AFC1953BBBA00978D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA10AFA1953BBBA00978D79 /* InfoPlist.strings */; };
 		9AA10AFE1953BBBA00978D79 /* CreditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10AFD1953BBBA00978D79 /* CreditTests.m */; };
+		9AA10B091953BC7100978D79 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10B081953BC7100978D79 /* TimeViewController.m */; };
+		9AA10B0C1953BCBB00978D79 /* MonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10B0B1953BCBB00978D79 /* MonViewController.m */; };
+		9AA10B0F1953BCEF00978D79 /* TueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10B0E1953BCEF00978D79 /* TueViewController.m */; };
+		9AA10B121953C08700978D79 /* ThurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10B111953C08700978D79 /* ThurViewController.m */; };
+		9AA10B151953C09700978D79 /* FriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA10B141953C09700978D79 /* FriViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		9AA10AE11953BBBA00978D79 /* iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
 		9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
 		9AA10AE51953BBBA00978D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AA10AE71953BBBA00978D79 /* iOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSViewController.h; sourceTree = "<group>"; };
-		9AA10AE81953BBBA00978D79 /* iOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSViewController.m; sourceTree = "<group>"; };
+		9AA10AE71953BBBA00978D79 /* WedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WedViewController.h; sourceTree = "<group>"; };
+		9AA10AE81953BBBA00978D79 /* WedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WedViewController.m; sourceTree = "<group>"; };
 		9AA10AEA1953BBBA00978D79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AA10AF01953BBBA00978D79 /* CreditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA10AF11953BBBA00978D79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9AA10AF91953BBBA00978D79 /* CreditTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreditTests-Info.plist"; sourceTree = "<group>"; };
 		9AA10AFB1953BBBA00978D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AA10AFD1953BBBA00978D79 /* CreditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditTests.m; sourceTree = "<group>"; };
+		9AA10B071953BC7100978D79 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		9AA10B081953BC7100978D79 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		9AA10B0A1953BCBB00978D79 /* MonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonViewController.h; sourceTree = "<group>"; };
+		9AA10B0B1953BCBB00978D79 /* MonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonViewController.m; sourceTree = "<group>"; };
+		9AA10B0D1953BCEF00978D79 /* TueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TueViewController.h; sourceTree = "<group>"; };
+		9AA10B0E1953BCEF00978D79 /* TueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TueViewController.m; sourceTree = "<group>"; };
+		9AA10B101953C08700978D79 /* ThurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThurViewController.h; sourceTree = "<group>"; };
+		9AA10B111953C08700978D79 /* ThurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThurViewController.m; sourceTree = "<group>"; };
+		9AA10B131953C09700978D79 /* FriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriViewController.h; sourceTree = "<group>"; };
+		9AA10B141953C09700978D79 /* FriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +130,18 @@
 				9AA10AE11953BBBA00978D79 /* iOSAppDelegate.h */,
 				9AA10AE21953BBBA00978D79 /* iOSAppDelegate.m */,
 				9AA10AE41953BBBA00978D79 /* Main.storyboard */,
-				9AA10AE71953BBBA00978D79 /* iOSViewController.h */,
-				9AA10AE81953BBBA00978D79 /* iOSViewController.m */,
+				9AA10AE71953BBBA00978D79 /* WedViewController.h */,
+				9AA10AE81953BBBA00978D79 /* WedViewController.m */,
+				9AA10B071953BC7100978D79 /* TimeViewController.h */,
+				9AA10B081953BC7100978D79 /* TimeViewController.m */,
+				9AA10B101953C08700978D79 /* ThurViewController.h */,
+				9AA10B131953C09700978D79 /* FriViewController.h */,
+				9AA10B141953C09700978D79 /* FriViewController.m */,
+				9AA10B111953C08700978D79 /* ThurViewController.m */,
+				9AA10B0A1953BCBB00978D79 /* MonViewController.h */,
+				9AA10B0D1953BCEF00978D79 /* TueViewController.h */,
+				9AA10B0E1953BCEF00978D79 /* TueViewController.m */,
+				9AA10B0B1953BCBB00978D79 /* MonViewController.m */,
 				9AA10AEA1953BBBA00978D79 /* Images.xcassets */,
 				9AA10AD91953BBBA00978D79 /* Supporting Files */,
 			);
@@ -251,8 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA10AE31953BBBA00978D79 /* iOSAppDelegate.m in Sources */,
+				9AA10B091953BC7100978D79 /* TimeViewController.m in Sources */,
 				9AA10ADF1953BBBA00978D79 /* main.m in Sources */,
-				9AA10AE91953BBBA00978D79 /* iOSViewController.m in Sources */,
+				9AA10B0F1953BCEF00978D79 /* TueViewController.m in Sources */,
+				9AA10AE91953BBBA00978D79 /* WedViewController.m in Sources */,
+				9AA10B0C1953BCBB00978D79 /* MonViewController.m in Sources */,
+				9AA10B151953C09700978D79 /* FriViewController.m in Sources */,
+				9AA10B121953C08700978D79 /* ThurViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

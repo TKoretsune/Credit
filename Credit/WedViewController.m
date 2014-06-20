@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 是常 雄大. All rights reserved.
 //
 
-#import "iOSViewController.h"
+#import "WedViewController.h"
 
-@interface iOSViewController ()
+@interface WedViewController ()
 
 @end
 
-@implementation iOSViewController
+@implementation WedViewController
 
 - (void)viewDidLoad
 {

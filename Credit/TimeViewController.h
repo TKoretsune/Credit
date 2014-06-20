@@ -1,5 +1,5 @@
 //
-//  iOSViewController.h
+//  TimeViewController.h
 //  Credit
 //
 //  Created by Takehiro Koretsune on 2014/06/20.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iOSViewController : UIViewController
+@interface TimeViewController : UIViewController
 
 @end
